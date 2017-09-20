@@ -1,0 +1,6 @@
+framework module DigitsMigrationHelper {
+  umbrella header "DigitsMigrationHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

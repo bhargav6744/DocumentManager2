@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDC0D4A5F458292DBB1C9B8F /* Pods_Document_Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30EFD81EBF0A21C585C17D7 /* Pods_Document_Manager.framework */; };
+		D43E929D1F0A5AD800AB18F1 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E929C1F0A5AD800AB18F1 /* ForgotPasswordViewController.swift */; };
+		D467AB621EFA7CD400C1AF89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D467AB611EFA7CD400C1AF89 /* GoogleService-Info.plist */; };
+		D47B1D9C1EF2A89000462329 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47B1D9B1EF2A89000462329 /* SecondViewController.swift */; };
+		D484E7011EF106EA00021CD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D484E7001EF106EA00021CD6 /* AppDelegate.swift */; };
+		D484E7031EF106EA00021CD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D484E7021EF106EA00021CD6 /* ViewController.swift */; };
+		D484E7061EF106EA00021CD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D484E7041EF106EA00021CD6 /* Main.storyboard */; };
+		D484E7081EF106EA00021CD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D484E7071EF106EA00021CD6 /* Assets.xcassets */; };
+		D484E70B1EF106EA00021CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D484E7091EF106EA00021CD6 /* LaunchScreen.storyboard */; };
+		D484E7131EF10EFD00021CD6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D484E7121EF10EFD00021CD6 /* FirstViewController.swift */; };
+		D484E7151EF10F1800021CD6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D484E7141EF10F1800021CD6 /* ThirdViewController.swift */; };
+		D484E7171EF10F2300021CD6 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D484E7161EF10F2300021CD6 /* FourthViewController.swift */; };
+		D484E7191EF10F3500021CD6 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D484E7181EF10F3500021CD6 /* FifthViewController.swift */; };
+		D484E71B1EF1236E00021CD6 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D484E71A1EF1236E00021CD6 /* TabViewController.swift */; };
+		D48A2A001EFB9AB300B4EAC7 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48A29FF1EFB9AB300B4EAC7 /* signUpViewController.swift */; };
+		D48A2A231EFBED2500B4EAC7 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48A2A221EFBED2500B4EAC7 /* OTPViewController.swift */; };
+		D48B209C1F14EA5F00D7C92C /* AssetListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48B209B1F14EA5D00D7C92C /* AssetListingTableViewCell.swift */; };
+		D4919D321EF7DEF900B2472E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4919D311EF7DEF900B2472E /* MapViewController.swift */; };
+		D4A63CE11EF937520037EF31 /* docEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A63CE01EF937520037EF31 /* docEntryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8AF3FAEEA33FDBECCA947E31 /* Pods-Document Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Document Manager.release.xcconfig"; path = "Pods/Target Support Files/Pods-Document Manager/Pods-Document Manager.release.xcconfig"; sourceTree = "<group>"; };
+		9DBA39D02F4C8F720771F349 /* Pods-Document Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Document Manager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Document Manager/Pods-Document Manager.debug.xcconfig"; sourceTree = "<group>"; };
+		D43E929C1F0A5AD800AB18F1 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		D467AB611EFA7CD400C1AF89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D467AB631EFA7FDA00C1AF89 /* Document Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Document Manager.entitlements"; sourceTree = "<group>"; };
+		D47B1D9B1EF2A89000462329 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D484E6FD1EF106EA00021CD6 /* Document Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Document Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D484E7001EF106EA00021CD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D484E7021EF106EA00021CD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D484E7051EF106EA00021CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D484E7071EF106EA00021CD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D484E70A1EF106EA00021CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D484E70C1EF106EA00021CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D484E7121EF10EFD00021CD6 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D484E7141EF10F1800021CD6 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		D484E7161EF10F2300021CD6 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		D484E7181EF10F3500021CD6 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		D484E71A1EF1236E00021CD6 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		D484E7211EF13F7400021CD6 /* Document Manager-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Document Manager-Bridging-Header.h"; sourceTree = "<group>"; };
+		D48A29FF1EFB9AB300B4EAC7 /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		D48A2A221EFBED2500B4EAC7 /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		D48B209B1F14EA5D00D7C92C /* AssetListingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetListingTableViewCell.swift; sourceTree = "<group>"; };
+		D4919D311EF7DEF900B2472E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D4A63CE01EF937520037EF31 /* docEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = docEntryViewController.swift; sourceTree = "<group>"; };
+		F30EFD81EBF0A21C585C17D7 /* Pods_Document_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Document_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D484E6FA1EF106EA00021CD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC0D4A5F458292DBB1C9B8F /* Pods_Document_Manager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11CFD5130804AFC4C08CAEA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DBA39D02F4C8F720771F349 /* Pods-Document Manager.debug.xcconfig */,
+				8AF3FAEEA33FDBECCA947E31 /* Pods-Document Manager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50D04724E69466849D2C498A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F30EFD81EBF0A21C585C17D7 /* Pods_Document_Manager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D484E6F41EF106EA00021CD6 = {
+			isa = PBXGroup;
+			children = (
+				D484E6FF1EF106EA00021CD6 /* Document Manager */,
+				D484E6FE1EF106EA00021CD6 /* Products */,
+				11CFD5130804AFC4C08CAEA7 /* Pods */,
+				50D04724E69466849D2C498A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D484E6FE1EF106EA00021CD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D484E6FD1EF106EA00021CD6 /* Document Manager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D484E6FF1EF106EA00021CD6 /* Document Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D467AB631EFA7FDA00C1AF89 /* Document Manager.entitlements */,
+				D484E7001EF106EA00021CD6 /* AppDelegate.swift */,
+				D484E7021EF106EA00021CD6 /* ViewController.swift */,
+				D48B209B1F14EA5D00D7C92C /* AssetListingTableViewCell.swift */,
+				D484E7121EF10EFD00021CD6 /* FirstViewController.swift */,
+				D47B1D9B1EF2A89000462329 /* SecondViewController.swift */,
+				D484E7141EF10F1800021CD6 /* ThirdViewController.swift */,
+				D484E7161EF10F2300021CD6 /* FourthViewController.swift */,
+				D484E7181EF10F3500021CD6 /* FifthViewController.swift */,
+				D484E7211EF13F7400021CD6 /* Document Manager-Bridging-Header.h */,
+				D484E7071EF106EA00021CD6 /* Assets.xcassets */,
+				D484E7041EF106EA00021CD6 /* Main.storyboard */,
+				D484E71A1EF1236E00021CD6 /* TabViewController.swift */,
+				D4919D311EF7DEF900B2472E /* MapViewController.swift */,
+				D4A63CE01EF937520037EF31 /* docEntryViewController.swift */,
+				D484E7091EF106EA00021CD6 /* LaunchScreen.storyboard */,
+				D48A29FF1EFB9AB300B4EAC7 /* signUpViewController.swift */,
+				D467AB611EFA7CD400C1AF89 /* GoogleService-Info.plist */,
+				D484E70C1EF106EA00021CD6 /* Info.plist */,
+				D43E929C1F0A5AD800AB18F1 /* ForgotPasswordViewController.swift */,
+				D48A2A221EFBED2500B4EAC7 /* OTPViewController.swift */,
+			);
+			path = "Document Manager";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D484E6FC1EF106EA00021CD6 /* Document Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D484E70F1EF106EA00021CD6 /* Build configuration list for PBXNativeTarget "Document Manager" */;
+			buildPhases = (
+				411EE5C2F0CB4D2501385454 /* [CP] Check Pods Manifest.lock */,
+				D484E6F91EF106EA00021CD6 /* Sources */,
+				D484E6FA1EF106EA00021CD6 /* Frameworks */,
+				D484E6FB1EF106EA00021CD6 /* Resources */,
+				DC1A2E36D096B35EC34BAA4D /* [CP] Embed Pods Frameworks */,
+				FC314C5C48F148657809C914 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Document Manager";
+			productName = "Document Manager";
+			productReference = D484E6FD1EF106EA00021CD6 /* Document Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D484E6F51EF106EA00021CD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pixabit Infotech";
+				TargetAttributes = {
+					D484E6FC1EF106EA00021CD6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4MYHUYPTLJ;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D484E6F81EF106EA00021CD6 /* Build configuration list for PBXProject "Document Manager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D484E6F41EF106EA00021CD6;
+			productRefGroup = D484E6FE1EF106EA00021CD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D484E6FC1EF106EA00021CD6 /* Document Manager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D484E6FB1EF106EA00021CD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D484E70B1EF106EA00021CD6 /* LaunchScreen.storyboard in Resources */,
+				D484E7081EF106EA00021CD6 /* Assets.xcassets in Resources */,
+				D484E7061EF106EA00021CD6 /* Main.storyboard in Resources */,
+				D467AB621EFA7CD400C1AF89 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		411EE5C2F0CB4D2501385454 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC1A2E36D096B35EC34BAA4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Document Manager/Pods-Document Manager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC314C5C48F148657809C914 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Document Manager/Pods-Document Manager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D484E6F91EF106EA00021CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48A2A231EFBED2500B4EAC7 /* OTPViewController.swift in Sources */,
+				D47B1D9C1EF2A89000462329 /* SecondViewController.swift in Sources */,
+				D484E7191EF10F3500021CD6 /* FifthViewController.swift in Sources */,
+				D484E7131EF10EFD00021CD6 /* FirstViewController.swift in Sources */,
+				D48A2A001EFB9AB300B4EAC7 /* signUpViewController.swift in Sources */,
+				D484E7031EF106EA00021CD6 /* ViewController.swift in Sources */,
+				D4A63CE11EF937520037EF31 /* docEntryViewController.swift in Sources */,
+				D4919D321EF7DEF900B2472E /* MapViewController.swift in Sources */,
+				D484E7151EF10F1800021CD6 /* ThirdViewController.swift in Sources */,
+				D48B209C1F14EA5F00D7C92C /* AssetListingTableViewCell.swift in Sources */,
+				D484E7011EF106EA00021CD6 /* AppDelegate.swift in Sources */,
+				D43E929D1F0A5AD800AB18F1 /* ForgotPasswordViewController.swift in Sources */,
+				D484E71B1EF1236E00021CD6 /* TabViewController.swift in Sources */,
+				D484E7171EF10F2300021CD6 /* FourthViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D484E7041EF106EA00021CD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D484E7051EF106EA00021CD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D484E7091EF106EA00021CD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D484E70A1EF106EA00021CD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D484E70D1EF106EA00021CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D484E70E1EF106EA00021CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D484E7101EF106EA00021CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DBA39D02F4C8F720771F349 /* Pods-Document Manager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Document Manager/Document Manager.entitlements";
+				DEVELOPMENT_TEAM = 4MYHUYPTLJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Document\\ Manager",
+					"$(PROJECT_DIR)/Document\\ Manager",
+					"$(PROJECT_DIR)/Document\\ Manager",
+				);
+				INFOPLIST_FILE = "Document Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixabitinfotech.Document-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Document Manager/Document Manager-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D484E7111EF106EA00021CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AF3FAEEA33FDBECCA947E31 /* Pods-Document Manager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Document Manager/Document Manager.entitlements";
+				DEVELOPMENT_TEAM = 4MYHUYPTLJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Document\\ Manager",
+					"$(PROJECT_DIR)/Document\\ Manager",
+					"$(PROJECT_DIR)/Document\\ Manager",
+				);
+				INFOPLIST_FILE = "Document Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixabitinfotech.Document-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Document Manager/Document Manager-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D484E6F81EF106EA00021CD6 /* Build configuration list for PBXProject "Document Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D484E70D1EF106EA00021CD6 /* Debug */,
+				D484E70E1EF106EA00021CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D484E70F1EF106EA00021CD6 /* Build configuration list for PBXNativeTarget "Document Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D484E7101EF106EA00021CD6 /* Debug */,
+				D484E7111EF106EA00021CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D484E6F51EF106EA00021CD6 /* Project object */;
+}
